@@ -1,0 +1,34 @@
+body{
+    background-color: rgb(255, 225, 55);
+}
+
+#score{
+    font-size: 24px;
+    margin-right: 200px;
+}
+
+#time{
+    font-size: 24px;
+    margin-left: 100px;
+}
+
+p{
+    font-size: 20px;
+}
+
+#sketch{
+    color: red;
+}
+
+canvas{
+    border: 10px white;
+    margin-top: 120px;
+    animation-duration: 10s;
+    animation-name: example;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+    from {box-shadow: 1px 1px 38px rgb(118, 190, 219)}; 
+    to {box-shadow: 1px 1px 38px rgb(232, 50, 35)}; 
+}
